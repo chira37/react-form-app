@@ -1,0 +1,30 @@
+.home-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-content {
+    display: grid;
+    row-gap: 30px;
+}
+
+.form-wrapper {
+    padding: 40px;
+}
+
+.form-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.form-logo {
+    width: 40%;
+}
+
+@media only screen and (max-width: 480px) {
+    .form-wrapper {
+        padding: 20px;
+    }
+}
